@@ -1,0 +1,46 @@
+.row {
+    margin: 10px;
+    background:#fff;
+    border-radius: 10px;
+    padding: 10px;
+    color:#fb637e;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #f791d6;
+  background-color: #f791d6;
+  
+}
+
+li {
+  float: left;
+}   
+
+li a {
+  color: #ffff99;
+  text-align: center;
+  padding: 14px 16px;   
+}
+
+li a:hover:not(.active) {
+  background-color: #ff66cc;
+  color:#c2f0cc;
+}
+
+li a.active {
+  color: #ff66cc;
+}
+
+.header img {
+  width: 900px;
+  height: 400px;
+  background: #555;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
