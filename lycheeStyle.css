@@ -45,3 +45,7 @@ li a.active {
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
 }
+
+div {
+  overflow: hidden;
+}
